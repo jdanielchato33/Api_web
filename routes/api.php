@@ -4,7 +4,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MesaController;
 use App\Http\Controllers\SillaController;
+use App\Http\Controllers\EdificioController;
 
+Route::apiResource('edificios', EdificioController::class);
 /*
 |--------------------------------------------------------------------------
 | API Routes
